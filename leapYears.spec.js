@@ -13,10 +13,10 @@ describe('leapYears', function() {
   it('works with century years', function() {
     expect(leapYears(1900)).toEqual(false);
   });
-  xit('works with century years', function() {
+  it('works with century years', function() {
     expect(leapYears(1600)).toEqual(true);
   });
-  xit('works with century years', function() {
+  it('works with century years', function() {
     expect(leapYears(700)).toEqual(false);
   });
 });
